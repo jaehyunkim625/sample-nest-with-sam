@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sample-nest-with-sam"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-15c1e86deepe0"
+s3_prefix = "sample-nest-with-sam"
+region = "ap-northeast-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
