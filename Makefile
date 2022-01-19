@@ -2,7 +2,7 @@
 .PHONY: build-ExampleFunction
 
 build-ExampleFunction:
-	$(MAKE) HANDLER=src/main.ts build-lambda-common
+	$(MAKE) HANDLER=src/hello/main.ts build-lambda-common
 
 build-lambda-common:
 	npm install
